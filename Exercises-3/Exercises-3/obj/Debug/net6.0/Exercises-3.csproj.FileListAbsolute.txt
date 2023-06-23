@@ -1,0 +1,15 @@
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\bin\Debug\net6.0\Exercises-3.exe
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\bin\Debug\net6.0\Exercises-3.deps.json
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\bin\Debug\net6.0\Exercises-3.runtimeconfig.json
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\bin\Debug\net6.0\Exercises-3.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\bin\Debug\net6.0\Exercises-3.pdb
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\Exercises-3.csproj.AssemblyReference.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\Exercises-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\Exercises-3.AssemblyInfoInputs.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\Exercises-3.AssemblyInfo.cs
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\Exercises-3.csproj.CoreCompileInputs.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\Exercises-3.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\refint\Exercises-3.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\Exercises-3.pdb
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\Exercises-3.genruntimeconfig.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Exercises-3\Exercises-3\obj\Debug\net6.0\ref\Exercises-3.dll
