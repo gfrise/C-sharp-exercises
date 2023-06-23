@@ -2,11 +2,13 @@
 
 string input = Console.ReadLine();
 
+string phrase = input.ToLower().Replace(" ", "");
+
 bool isPalindrome = true;
 
-for (int i = 0; i < input.Length; i++)
+for (int i = 0; i < phrase.Length / 2; i++)
 {
-    if (input[i] != input[input.Length - i -1])
+    if (phrase[i] != phrase[phrase.Length - i -1])
     {
         isPalindrome = false;
         break;
