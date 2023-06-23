@@ -2,7 +2,7 @@
 
 string input = Console.ReadLine();
 
-bool isPalindrome = false;
+bool isPalindrome = true;
 
 for (int i = 0; i < input.Length; i++)
 {
@@ -10,9 +10,6 @@ for (int i = 0; i < input.Length; i++)
     {
         isPalindrome = false;
         break;
-    } else
-    {
-        isPalindrome = true;
     }
 }
 
