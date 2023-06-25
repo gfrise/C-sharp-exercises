@@ -38,7 +38,7 @@ namespace Exercise_7
 
         public void AccessPrivate()
         {
-            Console.WriteLine($"This is the only way to access private fields, which btw in this case is equale to{privateField}");
+            Console.WriteLine($"This is the only way to access private fields, which btw in this case is equale to {privateField}");
             PrivateMethod();
         }
             protected void ProtectedMethod()
