@@ -1,0 +1,15 @@
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\ex-14.csproj.AssemblyReference.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\ex-14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\ex-14.AssemblyInfoInputs.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\ex-14.AssemblyInfo.cs
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\ex-14.csproj.CoreCompileInputs.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\bin\Debug\net6.0\ex-14.exe
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\bin\Debug\net6.0\ex-14.deps.json
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\bin\Debug\net6.0\ex-14.runtimeconfig.json
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\bin\Debug\net6.0\ex-14.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\bin\Debug\net6.0\ex-14.pdb
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\ex-14.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\refint\ex-14.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\ex-14.pdb
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\ex-14.genruntimeconfig.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-14\ex-14\obj\Debug\net6.0\ref\ex-14.dll
