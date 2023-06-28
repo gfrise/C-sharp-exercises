@@ -1,0 +1,15 @@
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\bin\Debug\net6.0\ex-12.exe
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\bin\Debug\net6.0\ex-12.deps.json
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\bin\Debug\net6.0\ex-12.runtimeconfig.json
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\bin\Debug\net6.0\ex-12.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\bin\Debug\net6.0\ex-12.pdb
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\ex-12.csproj.AssemblyReference.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\ex-12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\ex-12.AssemblyInfoInputs.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\ex-12.AssemblyInfo.cs
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\ex-12.csproj.CoreCompileInputs.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\ex-12.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\refint\ex-12.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\ex-12.pdb
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\ex-12.genruntimeconfig.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\ex-12\ex-12\obj\Debug\net6.0\ref\ex-12.dll
