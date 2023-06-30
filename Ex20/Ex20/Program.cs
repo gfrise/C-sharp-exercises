@@ -7,7 +7,7 @@ List<Student> students = new List<Student>
     new Student("Sheldon Cooper", 10),
     new Student("Luigi", 7),
     new Student("Federico", 3),
-    new Student("Walter White", 10),
+    new Student("Walter White", 9),
     new Student("Topolino", 8),
     new Student("Sherlock Holmes", 10),
     new Student("Rick Sanchez", 10),
@@ -51,7 +51,7 @@ else if (choice == 2)
 
     top.Sort(StringComparer.OrdinalIgnoreCase);
 
-    if (top.Count == 0)
+    if (top.Count == 1)
     {
         Console.WriteLine($"The smartest is {x} with {y}");
     } else
