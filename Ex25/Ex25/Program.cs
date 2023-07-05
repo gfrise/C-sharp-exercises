@@ -7,6 +7,11 @@ var sum = nums.Sum();
 var avg = nums.Average();
 var length = nums.Count();
 
-Console.WriteLine($"Sum: {sum}, Average: {avg}, Number of elements: {length}");
+Console.WriteLine($"Sum: {sum} , Average: {avg} , Number of elements: {length}");
 
 
+Console.WriteLine("Enter a small number");
+int input1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Enter another number");
+int input2 = int.Parse(Console.ReadLine());
