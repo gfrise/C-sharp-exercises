@@ -1,5 +1,4 @@
-﻿using Ex24;
-using System.Collections.Immutable;
+﻿using System.Collections.Immutable;
 
 var rdm = new Random();
 var range = Enumerable
@@ -7,10 +6,7 @@ var range = Enumerable
     .Select(n => rdm.Next(0, 200));
 IEnumerable<int> NumberLength(IEnumerable<int> nums)
 {
-    CustomRanker ranker = new CustomRanker();
-
-    return nums.OrderBy(num => num.ToString().Length)
-        .OrderBy(num => num, ranker);
+    return nums.OrderBy(num => num.ToString().Length);
 }
 
 foreach (var i in NumberLength(range))
