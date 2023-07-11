@@ -10,10 +10,6 @@ stringStack.Add("Alice");
 stringStack.Add("Tim");
 stringStack.Remove();
 
-var x = stringStack.TakeALook();
-var y = intStack.TakeALook();
-Console.WriteLine(y);
-
 class MyQueue<T>
 {
     private readonly Queue<T> _queue;

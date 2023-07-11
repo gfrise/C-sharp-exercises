@@ -1,0 +1,15 @@
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\Ex32.csproj.AssemblyReference.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\Ex32.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\Ex32.AssemblyInfoInputs.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\Ex32.AssemblyInfo.cs
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\Ex32.csproj.CoreCompileInputs.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\bin\Debug\net6.0\Ex32.exe
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\bin\Debug\net6.0\Ex32.deps.json
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\bin\Debug\net6.0\Ex32.runtimeconfig.json
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\bin\Debug\net6.0\Ex32.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\bin\Debug\net6.0\Ex32.pdb
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\Ex32.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\refint\Ex32.dll
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\Ex32.pdb
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\Ex32.genruntimeconfig.cache
+C:\Users\Giuseppe Frisella\source\repos\C-sharp-exercises\Ex32\Ex32\obj\Debug\net6.0\ref\Ex32.dll
