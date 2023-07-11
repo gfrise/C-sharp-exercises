@@ -8,13 +8,12 @@ var range = Enumerable
 IEnumerable<int> NumberLength(IEnumerable<int> nums)
 {
     CustomRanker ranker = new CustomRanker();
-    var x = nums.ToList();
-    x.Sort(ranker);
 
-    return x;
+    return nums.OrderBy(num => num.ToString().Length)
+        .OrderBy(num => num, ranker);
 }
 
-foreach(var i in NumberLength(range))
+foreach (var i in NumberLength(range))
 {
     Console.WriteLine(i);
 }
