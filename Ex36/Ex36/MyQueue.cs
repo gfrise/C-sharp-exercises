@@ -1,5 +1,6 @@
 ﻿namespace Ex36
 {
+    // Cosa può essere cambiato?
     public interface IQueue<T>
     {
         void Add(T el);
