@@ -1,5 +1,7 @@
-﻿Console.WriteLine("Insert an url");
+﻿/*Console.WriteLine("Insert an url");
 string url = Console.ReadLine();
+
+
 
 Console.WriteLine(await new Fetch().From(url));
 public class Fetch
@@ -10,7 +12,7 @@ public class Fetch
 
         foreach(var h in res.Headers)
         {
-            Console.WriteLine($"-{h.Key}= {h.Value}");
+            Console.WriteLine($"-{h.Key} = {h.Value}");
         }
 
         Console.WriteLine(await res.Content.ReadAsStringAsync());
@@ -18,3 +20,14 @@ public class Fetch
         return "";
     }
 }
+*/
+
+Console.WriteLine("enter");
+
+var res = await new HttpClient().GetAsync(new Uri(Console.ReadLine()));
+
+foreach (var h in res.Headers)
+{
+    Console.WriteLine($"-{h.Key} = {h.Value}");
+}
+Console.WriteLine(await res.Content.ReadAsStringAsync());
