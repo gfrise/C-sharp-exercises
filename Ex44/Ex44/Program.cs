@@ -1,7 +1,12 @@
+using Ex44.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<IQuestionRepo, QuestionRepo>();
+builder.Services.AddSingleton<IAnswerRepo, AnswerRepo>();
 
 var app = builder.Build();
 
@@ -21,7 +26,12 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "default",
+    name: "Question",
+    pattern: "question/details/{id?}",
+    defaults: new { controller = "Question", action = "Details" });
+
+app.MapControllerRoute(
+    name: "routed",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
