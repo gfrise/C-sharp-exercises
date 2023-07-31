@@ -25,10 +25,15 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
+/*app.MapControllerRoute(
     name: "Question",
-    pattern: "question/details/{id?}",
-    defaults: new { controller = "Question", action = "Details" });
+    pattern: "question/details/{id?}");
+*/
+
+app.MapControllerRoute(
+    name: "request routing",
+    pattern: "{controller=Home}/{action=Index}/{author}/{id?}");
+
 
 app.MapControllerRoute(
     name: "routed",
