@@ -1,0 +1,20 @@
+﻿@model List<Exe43.Models.Answer>
+
+@if (Model.Any())
+{
+    <ol>
+        @foreach(var i in Model)
+        {
+            <li>
+                @i.Description
+                @if (i.isAccepted)
+                {
+                    <span>Eligible</span>
+                }
+            </li>
+        }
+    </ol>
+} else 
+{
+    <p>No answers for that</p>
+}

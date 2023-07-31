@@ -32,7 +32,7 @@
         </tr>
     </thead>
     <tbody>
-<!--@foreach (var item in Model) {
+ @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Id)
@@ -50,11 +50,11 @@
                 @Html.DisplayFor(modelItem => item.IdQuestion)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Id  }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.Author  }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.IdQuestion  })
             </td>
-        </tr>-->
+        </tr>
 }
     </tbody>
 </table>
