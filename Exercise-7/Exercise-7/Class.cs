@@ -8,50 +8,15 @@ namespace Exercise_7
 {
     public class Class
     {
-            public int publicField;
+        public string publicField = "public field";
+        private string privateField = "private field";
+        protected string protectedField = "protected field";
+        internal string internalField = "internal field";
 
-            private int privateField;
-
-        protected int protectedField;
-
-            internal int internalField;
-
-        public Class()
-        {
-            publicField = 1;
-            privateField = 2;
-            protectedField = 3; 
-            internalField = 4;
-        }
-
-        public void PublicMethod()
-            {
-                Console.WriteLine("public method.");
-
-            }
-
-            internal void InternalMethod()
-            {
-                Console.WriteLine("internal method.");
-
-            }
-
-        public void AccessPrivate()
-        {
-            Console.WriteLine($"This is the only way to access private fields, which btw in this case is equale to {privateField}");
-            PrivateMethod();
-        }
-            protected void ProtectedMethod()
-            {
-                Console.WriteLine("protected method.");
-
-            }
-
-            private void PrivateMethod()
-            {
-                Console.WriteLine("private method.");
-
-            }
+        public string GetPrivate() { return privateField; }
+        public string GetProtected() { return protectedField;}
+        public string GetInternal() { return internalField;}
+        public string GetPublic() { return publicField;}
         
     }
 }
