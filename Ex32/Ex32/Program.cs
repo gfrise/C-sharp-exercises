@@ -1,4 +1,7 @@
-﻿internal class Program
+﻿using System;
+using System.Collections.Generic;
+
+public class Program
 {
     private static void Main(string[] args)
     {
@@ -19,57 +22,54 @@
             try
             {
                 throw new Exception();
-
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                throw e;
+                throw;
             }
-
         }
         catch (Exception e)
         {
             Console.WriteLine(e.StackTrace);
         }
     }
+}
 
-    class MyQueue<T>
+public class MyQueue<T>
+{
+    private readonly Queue<T> _queue;
+
+    public MyQueue()
     {
-        private readonly Queue<T> _queue;
+        _queue = new Queue<T>();
+    }
 
-        public MyQueue()
+    public void Add(T el)
+    {
+        _queue.Enqueue(el);
+    }
+
+    public void Remove()
+    {
+        if (_queue.Count != 0)
         {
-            _queue = new Queue<T>();
+            _queue.Dequeue();
         }
-
-        public void Add(T el)
+        else
         {
-            _queue.Enqueue(el);
+            throw new InvalidOperationException("empty queue");
         }
+    }
 
-        public void Remove()
+    public T TakeALook()
+    {
+        if (_queue.Count != 0)
         {
-            if (_queue.Count != 0)
-            {
-                _queue.Dequeue();
-
-            }
-            else
-            {
-                throw new InvalidOperationException("empty queue");
-            }
+            return _queue.Peek();
         }
-
-        public T TakeALook()
+        else
         {
-            if (_queue.Count != 0)
-            {
-                return _queue.Peek();
-            }
-            else
-            {
-                throw new InvalidOperationException("empty queue");
-            }
+            throw new InvalidOperationException("empty queue");
         }
     }
 }
