@@ -21,12 +21,5 @@ namespace Ex45.Controllers
             return _questionRepo.GetAll();
         }
 
-        [HttpGet("{id}", Name = "GetById")]
-        public ActionResult GetById(int id)
-        {
-            var question = this._questionRepo.GetById(id);
-            return new JsonResult(question);
-        }
-
     }
 }
