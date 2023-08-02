@@ -1,0 +1,6 @@
+using System.Text.Json;
+
+Employee employee = new Employee
+{
+    Name = "John Doe",
+};
