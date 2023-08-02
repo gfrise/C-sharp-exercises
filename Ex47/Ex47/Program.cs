@@ -1,4 +1,5 @@
 ﻿using Ex47;
+using System;
 using System.Text.Json;
 
 string urlQ = "https://localhost:7030/Question";
@@ -6,26 +7,27 @@ string urlA = "https://localhost:7030/Answer";
 
 var opt = new JsonSerializerOptions
 {
-    PropertyNameCaseInsensitive = true,
-    WriteIndented = true
+    PropertyNameCaseInsensitive = true
+};
+async Task<List<T>> Fetcher<T>(string x)
+{ 
+    var c = new HttpClient();
+    var res = await c.GetAsync(new Uri(x));
+    var content = await res.Content.ReadAsStringAsync();
+
+    return JsonSerializer.Deserialize<List<T>>(content, opt);
 };
 
-var resQ = await new HttpClient().GetAsync(new Uri(urlQ));
-var contentQ = await resQ.Content.ReadAsStringAsync();
-var jsonQ = JsonSerializer.Deserialize<List<Question>>(contentQ, opt);
-var Q = JsonSerializer.Serialize(jsonQ, opt);
+var questions = await Fetcher<Question>(urlQ);
+var answers = await Fetcher<Answer>(urlA);
 
-var resA = await new HttpClient().GetAsync(new Uri(urlA));
-var contentA = await resA.Content.ReadAsStringAsync();
-var jsonA = JsonSerializer.Deserialize<List<Answer>>(contentA, opt);
-var A = JsonSerializer.Serialize(jsonA, opt);
-
-Console.WriteLine(Q);
-Console.WriteLine();
-Console.WriteLine(A);
-
-
-
-
-
-
+Console.WriteLine("Questions");
+foreach (var i in questions)
+{
+    Console.WriteLine($"{i.Title}, {i.Description}, {i.Author}, {i.Id}");
+}
+Console.WriteLine("Answers");
+foreach (var i in answers)
+{
+    Console.WriteLine($"{i.IsAccepted}, {i.Description}, {i.Author}, {i.Id}");
+}
