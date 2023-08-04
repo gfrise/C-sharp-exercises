@@ -24,7 +24,7 @@ namespace Final.Models
             return i;
         }
 
-        public async Task<List<Dish>> FilterByType(string p)
+        public async Task<List<Dish>> FilterByType(DishType p)
         {
             var i = await GetAll();
 

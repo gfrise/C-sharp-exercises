@@ -32,7 +32,7 @@ namespace Final.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Dish>> GetByType(string d)
+        public async Task<IEnumerable<Dish>> GetByType(DishType d)
         {
             return await repo.FilterByType(d);
         }
