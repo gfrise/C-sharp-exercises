@@ -4,13 +4,8 @@ namespace Final.Models
 {
     public class DishRepo : IDishRepo
     {
-        string url = "./Data.json";
-
-        public DishRepo()
-        {
-
-        }
-
+        string url = "./Data/menu.json";
+        
         JsonSerializerOptions opt = new()
         {
             PropertyNameCaseInsensitive = true

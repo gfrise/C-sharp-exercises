@@ -17,11 +17,11 @@ namespace Final.Controllers
         }
 
         // GET: api/<DishController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        //[HttpGet]
+        //public IEnumerable<string> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
 
         // GET api/<DishController>/5
         [HttpGet("{id}")]
@@ -34,7 +34,7 @@ namespace Final.Controllers
         [HttpPost]
         public async void Post([FromBody] Dish dish)
         {
-            await repo.Create().C
+            await repo.Create(dish);
         }
 
         // PUT api/<DishController>/5
