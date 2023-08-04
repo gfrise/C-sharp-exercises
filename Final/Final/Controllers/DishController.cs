@@ -16,19 +16,6 @@ namespace Final.Controllers
             this.repo = repo;
         }
 
-        // GET: api/<DishController>
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
-
-        // GET api/<DishController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
 
         // POST api/<DishController>
         [HttpPost]
@@ -37,16 +24,24 @@ namespace Final.Controllers
             await repo.Create(dish);
         }
 
-        // PUT api/<DishController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // GET: api/<DishController>
+        [HttpGet]
+        public async Task<IEnumerable<Dish>> Get()
         {
+            return await repo.GetAll();
         }
 
-        // DELETE api/<DishController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpGet]
+        public async Task<IEnumerable<Dish>> GetByType(string d)
         {
+            return await repo.FilterByType(d);
         }
+
+        [HttpGet]
+        public async Task<IEnumerable<Dish>> GetByPrice()
+        {
+            return await repo.ShowCheapest();
+        }
+
     }
 }
